@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import re
 import argparse
@@ -19,7 +21,7 @@ def get_important_file():
     if os.path.exists(REGEX_CONFIG_FILE_PATH):
         with open(REGEX_CONFIG_FILE_PATH) as f:
             for line in f.readlines():
-                regex += line[:-1] + "|"
+                regex += line[:-2] + "|"
         regex = re.compile(regex[:-1])
         for file in log_files:
             if re.match(regex, file):
