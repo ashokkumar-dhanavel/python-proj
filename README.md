@@ -1,11 +1,9 @@
 # python-proj
-About the project
-~~~~~~~~~~~~~~~~~
+## About the project
 
 It’s nothing more than a simple version of grep command in linux system. The purpose of this project is to make easier for the user to search a word or multpile words from the give path.
 
-SetUp
-~~~~~
+## SetUp
 
 Download the project from the github using https or git clone command,
 
@@ -14,8 +12,8 @@ Download the project from the github using https or git clone command,
                      or
     git clone git@github.com:ashokkumar-dhanavel/python-proj.git
 
-Pre-requisites for testing the project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Pre-requisites for testing the project
+
 
 The following python packages are required for testing the project
 
@@ -23,15 +21,13 @@ The following python packages are required for testing the project
 
 command to install nose package "pip install nose"
 
-Project Installation
-~~~~~~~~~~~~~~~~~~~~
+## Project Installation
 
 After downloading the project from the github location setup the project using the command,
 
 python setup.py install
 
-Logfind command usage
-~~~~~~~~~~~~~~~~~~~~~
+## Logfind command usage
 
 usage: logfind.py [-h] p s
 
