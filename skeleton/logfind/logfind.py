@@ -65,7 +65,7 @@ if __name__ == "__main__":
     file_list = []
     parser = argparse.ArgumentParser(description='Find the String from the log files')
     parser.add_argument('p', help="directory path")
-    parser.add_argument('s', help="keyword to find from the log files")
+    parser.add_argument('s', help="keyword to find from the log files. Accept multiple words example 'Hello world' ")
     args = parser.parse_args()
     search_strings = args.s
     path = args.p
